@@ -1,0 +1,12 @@
+data_prepare:
+  list_of_logs: ["GR", "NPHI", "RHOB"]
+  sample_len: 100
+  col_resistivity: ["RMED", "RDEP"]
+
+data_processing:
+  log_resistivity: True
+  fill_na: True
+
+hydra:
+  run:
+    dir: .

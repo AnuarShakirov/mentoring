@@ -1,0 +1,4 @@
+.hydra
+*.log
+*.csv
+venv
