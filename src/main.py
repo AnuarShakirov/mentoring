@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="hydra")
 
 
-@hydra.main(config_path=".", config_name="config_main", version_base="1.1")
+@hydra.main(config_path="config", config_name="config_main", version_base="1.1")
 def main_func(cfg) -> None:
     """Example main function."""
     print(cfg)

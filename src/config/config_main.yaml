@@ -1,0 +1,7 @@
+defaults:
+  - data_loading: data_load
+  - data_processing: data_processing
+  
+hydra:
+  run:
+    dir: .

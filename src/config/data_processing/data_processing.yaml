@@ -1,0 +1,3 @@
+data_processing:
+  log_resistivity: True
+  fill_na: True
